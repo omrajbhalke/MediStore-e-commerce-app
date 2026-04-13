@@ -1,0 +1,21 @@
+# Dependencies (huge folder, never push this)
+node_modules/
+
+# Build output
+dist/
+
+# Local env files (keep secrets off GitHub)
+.env
+.env.local
+.env.*.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+.vite/
